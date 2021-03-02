@@ -53,7 +53,7 @@ const Navbar = () => {
                 onClick={closeMobileMenu}
                 activeClassName="is-active"
               >
-                Favourite {favourite.length}
+                Favourite ({favourite.length})
               </NavLink>
             </li>
           </ul>

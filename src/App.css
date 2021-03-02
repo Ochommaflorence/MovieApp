@@ -130,23 +130,49 @@ body {
 .tag.red {
   color: red;
 }
+
+.movie-over .button2 {
+  width: 40px;
+  /*height: 30px;
+  */
+  background-color: #22254b;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
 @media screen and (max-width: 500px) {
   .movie-over .button1 {
     width: 50%;
     margin-left: 77px;
   }
+
   .movie-over .button2 {
     width: 50.3%;
     margin: 10px;
     margin-left: 77px !important;
   }
+
   .search {
     margin-right: 40px;
   }
+
   .movie {
     width: 90%;
   }
 }
+
 @media screen and (max-width: 320px) {
   .search {
     margin-left: 50px;

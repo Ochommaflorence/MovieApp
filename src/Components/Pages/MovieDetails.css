@@ -1,55 +1,67 @@
-.content-wrapper{
-    margin-top:8em;
+.content-wrapper {
+    margin-top: 8em;
     color: black;
 }
-.content h1{
-    color:orange;
-    font-weight:600;
+
+.content h1 {
+    color: orange;
+    font-weight: 600;
 }
-.content p{
-    font-size:19px;
+
+.content p {
+    font-size: 19px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.content h5{
+
+.content h5 {
     font-size: 25px;
 }
+
 @media screen and (max-width:500px) {
-    .content-wrapper{
+    .content-wrapper {
         margin-top: 4.6em;
     }
-  .content p {
-      font-size: 17px;
-      margin-top: 10px;
+
+    .content p {
+        font-size: 17px;
+        margin-top: 10px;
     }
+
     .content h1 {
         margin-top: 20px;
     }
+
     .content .btn {
         width: 40%;
     }
 }
+
 @media screen and (max-width:320px) {
     .content p {
         font-size: 12px;
         margin-top: 10px;
-      
-      }
-      .content h5{
-          font-size: 12px;
-      }
-}
-@media screen and (max-width:1024px){
-    .content-wrapper{
-        margin-top:4.6em;
+
     }
+
+    .content h5 {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .content-wrapper {
+        margin-top: 4.6em;
+    }
+
     .content h1 {
         margin-top: 30px;
     }
+
     .content p {
         font-size: 17px;
         margin-top: 20px;
-      
-      }
+
+    }
 
     .content .btn {
         width: 40%;
